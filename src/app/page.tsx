@@ -116,7 +116,14 @@ export default function LandingPage() {
 
           <div className="pt-6">
             <Button size="lg" asChild>
-              <a href="192.168.100.2">Proceed to NAS Login</a>
+              <a
+                href="http://192.168.100.2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Proceed to NAS Login
+              </a>
             </Button>
           </div>
         </section>
