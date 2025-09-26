@@ -117,7 +117,7 @@ export default function LandingPage() {
           <div className="pt-6">
             <Button size="lg" asChild>
               <a
-                href="http://192.168.100.2"
+                href="https://192.168.100.2:5001/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
